@@ -1,0 +1,28 @@
+{
+  "name": "forestlet.github.io",
+  "private": true,
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "axios": "^1.2.1",
+    "bootstrap-icons": "^1.10.3",
+    "element-plus": "^2.2.27",
+    "normalize.css": "^8.0.1",
+    "vue": "^3.2.45",
+    "vue-axios": "^3.5.2",
+    "vue-router": "^4.1.6"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^4.0.0",
+    "sass": "^1.57.1",
+    "unplugin-auto-import": "^0.12.1",
+    "unplugin-icons": "^0.14.15",
+    "unplugin-vue-components": "^0.22.12",
+    "vite": "^4.0.3",
+    "vite-plugin-inspect": "^0.7.11"
+  }
+}

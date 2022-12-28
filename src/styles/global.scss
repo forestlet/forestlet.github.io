@@ -1,0 +1,52 @@
+:root {
+  --pretty-font: "Playfair Display", Georgia, "Times New Roman", 仿宋, serif;
+  --global-font: Consolas, Verdana, Geneva, Tahoma, sans-serif;
+  --header-height: 72px;
+  --main-padding: 20px;
+}
+
+@media screen and (min-width: 1200px) {
+  :root {
+    --page-width: 60%;
+  }
+}
+
+@media screen and (min-width: 720px) and (max-width: 1200px) {
+  :root {
+    --page-width: 72%;
+  }
+}
+
+@media screen and (max-width: 720px) {
+  :root {
+    --page-width: 90%;
+  }
+}
+
+body {
+  font-size: 1rem;
+  font-family: var(--global-font);
+  overflow: hidden;
+
+  button {
+    font-family: var(--global-font);
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    margin: 0;
+  }
+
+  a {
+    color: unset;
+    text-decoration: none;
+  }
+
+  .pretty-font {
+    font-family: var(--pretty-font);
+  }
+}
