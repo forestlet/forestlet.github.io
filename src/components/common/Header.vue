@@ -21,7 +21,7 @@
                 </router-link>
 
                 <el-button text @click="changeTheme()">
-                    <i class="bi bi-brightness-high" v-if="darkMode"></i>
+                    <i class="bi bi-brightness-high" v-if="theme == 'dark'"></i>
                     <i class="bi bi-moon-stars" v-else></i>
                 </el-button>
 
@@ -31,15 +31,7 @@
 </template>
 
 <script setup>
-import { ref } from 'vue'
-const darkMode = ref(window.matchMedia('(prefers-color-scheme: dark)').matches)
-if (darkMode.value)
-    document.getElementsByTagName("html")[0].classList.add("dark")
-
-const changeTheme = () => {
-    darkMode.value = !darkMode.value
-    document.getElementsByTagName("html")[0].className = darkMode.value ? "dark" : "light"
-}
+import { changeTheme, theme } from "@/util/theme.js"
 </script>
 
 <style lang="scss">

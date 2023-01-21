@@ -1,21 +1,23 @@
 export const all_repositories = [
   {
     owner: "forestlet",
-    repo: "stream-note",
-    full_name: "forestlet/stream-note",
-    description: "💧 Write like water.",
+    repo: "herisson",
+    full_name: "forestlet/herisson",
+    description: "🦔 Collect everyday pieces.",
     stargazers_count: "1",
     open_issues_count: "0",
     forks_count: "0",
+    homepage: "https://github.com/forestlet/herisson/releases",
   },
   {
     owner: "mytho-team",
-    repo: "mytho-note",
-    full_name: "mytho-team/mytho-note",
-    description: "🏛️ A beautiful piece of note-taking software.",
+    repo: "mytho",
+    full_name: "mytho-team/mytho",
+    description: "🪶 A beautiful piece of note-taking software.",
     stargazers_count: "1",
     open_issues_count: "0",
     forks_count: "0",
+    homepage: "https://github.com/mytho-team/mytho/releases",
   },
   {
     owner: "forestlet",
@@ -25,6 +27,7 @@ export const all_repositories = [
     stargazers_count: "7",
     open_issues_count: "0",
     forks_count: "1",
+    homepage: "https://forestlet.github.io/bookdash-cn/",
   },
   {
     owner: "forestlet",
@@ -34,6 +37,7 @@ export const all_repositories = [
     stargazers_count: "1",
     open_issues_count: "0",
     forks_count: "0",
+    homepage: "https://forestlet.github.io/novel-translation/",
   },
   {
     owner: "forestlet",
@@ -43,27 +47,30 @@ export const all_repositories = [
     stargazers_count: "2",
     open_issues_count: "0",
     forks_count: "0",
+    homepage: "https://forestlet.github.io/everyday-album/",
   },
 ];
 
 export const home_repositories = [
   {
     owner: "forestlet",
-    repo: "stream-note",
-    full_name: "forestlet/stream-note",
-    description: "💧 Write like water.",
+    repo: "herisson",
+    full_name: "forestlet/herisson",
+    description: "🦔 Collect everyday pieces.",
     stargazers_count: "1",
     open_issues_count: "0",
     forks_count: "0",
+    homepage: "https://github.com/forestlet/herisson/releases",
   },
   {
     owner: "mytho-team",
-    repo: "mytho-note",
-    full_name: "mytho-team/mytho-note",
-    description: "🏛️ A beautiful piece of note-taking software.",
+    repo: "mytho",
+    full_name: "mytho-team/mytho",
+    description: "🪶 A beautiful piece of note-taking software.",
     stargazers_count: "1",
     open_issues_count: "0",
     forks_count: "0",
+    homepage: "https://github.com/mytho-team/mytho/releases",
   },
   {
     owner: "forestlet",
@@ -73,6 +80,7 @@ export const home_repositories = [
     stargazers_count: "7",
     open_issues_count: "0",
     forks_count: "1",
+    homepage: "https://forestlet.github.io/bookdash-cn/",
   },
   {
     owner: "forestlet",
@@ -82,5 +90,6 @@ export const home_repositories = [
     stargazers_count: "1",
     open_issues_count: "0",
     forks_count: "0",
+    homepage: "https://forestlet.github.io/novel-translation/",
   },
 ];
