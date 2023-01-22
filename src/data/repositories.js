@@ -1,4 +1,4 @@
-export const all_repositories = [
+export const repositories = [
   {
     owner: "forestlet",
     repo: "herisson",
@@ -8,6 +8,7 @@ export const all_repositories = [
     open_issues_count: "0",
     forks_count: "0",
     homepage: "https://github.com/forestlet/herisson/releases",
+    position: ["home", "all"],
   },
   {
     owner: "mytho-team",
@@ -18,6 +19,7 @@ export const all_repositories = [
     open_issues_count: "0",
     forks_count: "0",
     homepage: "https://github.com/mytho-team/mytho/releases",
+    position: ["home", "all"],
   },
   {
     owner: "forestlet",
@@ -28,6 +30,7 @@ export const all_repositories = [
     open_issues_count: "0",
     forks_count: "1",
     homepage: "https://forestlet.github.io/bookdash-cn/",
+    position: ["home", "all"],
   },
   {
     owner: "forestlet",
@@ -38,6 +41,7 @@ export const all_repositories = [
     open_issues_count: "0",
     forks_count: "0",
     homepage: "https://forestlet.github.io/novel-translation/",
+    position: ["home", "all"],
   },
   {
     owner: "forestlet",
@@ -48,48 +52,6 @@ export const all_repositories = [
     open_issues_count: "0",
     forks_count: "0",
     homepage: "https://forestlet.github.io/everyday-album/",
-  },
-];
-
-export const home_repositories = [
-  {
-    owner: "forestlet",
-    repo: "herisson",
-    full_name: "forestlet/herisson",
-    description: "🦔 Collect everyday pieces.",
-    stargazers_count: "1",
-    open_issues_count: "0",
-    forks_count: "0",
-    homepage: "https://github.com/forestlet/herisson/releases",
-  },
-  {
-    owner: "mytho-team",
-    repo: "mytho",
-    full_name: "mytho-team/mytho",
-    description: "🪶 A beautiful piece of note-taking software.",
-    stargazers_count: "1",
-    open_issues_count: "0",
-    forks_count: "0",
-    homepage: "https://github.com/mytho-team/mytho/releases",
-  },
-  {
-    owner: "forestlet",
-    repo: "bookdash-cn",
-    full_name: "forestlet/bookdash-cn",
-    description: "🥰 A picture book translation project. I hope you like it.",
-    stargazers_count: "7",
-    open_issues_count: "0",
-    forks_count: "1",
-    homepage: "https://forestlet.github.io/bookdash-cn/",
-  },
-  {
-    owner: "forestlet",
-    repo: "novel-translation",
-    full_name: "forestlet/novel-translation",
-    description: "📖 A chinese novel translation project. I hope you like it.",
-    stargazers_count: "1",
-    open_issues_count: "0",
-    forks_count: "0",
-    homepage: "https://forestlet.github.io/novel-translation/",
+    position: ["all"],
   },
 ];

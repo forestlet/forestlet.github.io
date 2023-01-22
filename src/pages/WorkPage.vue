@@ -1,9 +1,9 @@
 <template>
-    <Work :works="all_works"></Work>
+    <Work :works="works" position="all"></Work>
 </template>
 <script setup>
 import Work from '@/components/work/Work.vue';
-import { all_works } from "@/data/works.js"
+import { works } from "@/data/works.js"
 </script>
 <style>
 

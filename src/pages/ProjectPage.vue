@@ -1,9 +1,9 @@
 <template>
-    <Project :repositories="all_repositories"></Project>
+    <Project :repositories="repositories" position="all"></Project>
 </template>
 <script setup>
 import Project from '@/components/project/Project.vue';
-import { all_repositories } from "@/data/repositories"
+import { repositories } from "@/data/repositories"
 </script>
 <style>
 

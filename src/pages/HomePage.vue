@@ -9,7 +9,7 @@
             <h2>My Projects</h2>
         </el-divider>
 
-        <Project :repositories="home_repositories"></Project>
+        <Project :repositories="repositories" position="home"></Project>
 
         <el-button text class="router-btn">
             <router-link to="/project"> See All My Projects ⌨️ </router-link>
@@ -22,7 +22,7 @@
             <h2>My Works</h2>
         </el-divider>
 
-        <Work :works="home_works"></Work>
+        <Work :works="works" position="home"></Work>
 
         <el-button text class="router-btn">
             <router-link to="/work"> See All My Works 🎨 </router-link>
@@ -35,8 +35,8 @@ import Introduction from '@/components/home/Introduction.vue';
 import Project from "@/components/project/Project.vue"
 import Work from "@/components/work/Work.vue"
 
-import { home_repositories } from "@/data/repositories"
-import { home_works } from "@/data/works.js"
+import { repositories } from "@/data/repositories"
+import { works } from "@/data/works.js"
 </script>
 
 <style lang="scss" scoped>

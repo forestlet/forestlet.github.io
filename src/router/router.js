@@ -1,15 +1,15 @@
 import { createRouter, createWebHashHistory } from "vue-router";
 import { scrollToTop } from "@/util/scrollbar.js";
-import Home from "@/pages/Home.vue";
-import Project from "@/pages/Project.vue";
-import Work from "@/pages/Work.vue";
-import About from "@/pages/About.vue";
+import HomePage from "@/pages/HomePage.vue";
+import ProjectPage from "@/pages/ProjectPage.vue";
+import WorkPage from "@/pages/WorkPage.vue";
+import AboutPage from "@/pages/AboutPage.vue";
 
 const routes = [
-  { path: "/", component: Home },
-  { path: "/project", component: Project },
-  { path: "/work", component: Work },
-  { path: "/about", component: About },
+  { path: "/", component: HomePage },
+  { path: "/project", component: ProjectPage },
+  { path: "/work", component: WorkPage },
+  { path: "/about", component: AboutPage },
 ];
 
 const router = createRouter({
