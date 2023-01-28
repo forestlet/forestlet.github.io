@@ -3,7 +3,8 @@
 </template>
 <script setup>
 import Project from '@/components/project/Project.vue';
-import { repositories } from "@/data/repositories"
+// @ts-ignore
+import repositories from "/public/data/repositories.json"
 </script>
 <style>
 

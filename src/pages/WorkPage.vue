@@ -3,7 +3,8 @@
 </template>
 <script setup>
 import Work from '@/components/work/Work.vue';
-import { works } from "@/data/works.js"
+// @ts-ignore
+import works from "/public/data/works.json"
 </script>
 <style>
 

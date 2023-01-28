@@ -2,7 +2,7 @@
     <div class="footer">
         <div class="brand">
             <el-tooltip effect="light" content="Bilibili" placement="top">
-                <a :href=bilibili_url>
+                <a :href=urls.bilibili_url>
                     <el-button text>
                         <svg version="1.1" id="图层_1" xmlns="http://www.w3.org/2000/svg"
                             xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 1024 1024"
@@ -24,7 +24,7 @@
             </el-tooltip>
 
             <el-tooltip effect="light" content="Github" placement="top">
-                <a :href=github_url>
+                <a :href=urls.github_url>
                     <el-button text>
                         <i class="bi bi-github"></i>
                     </el-button>
@@ -32,7 +32,7 @@
             </el-tooltip>
 
             <el-tooltip effect="light" content="Behance" placement="top">
-                <a :href=behance_url>
+                <a :href=urls.behance_url>
                     <el-button text>
                         <i class="bi bi-behance"></i>
                     </el-button>
@@ -40,7 +40,7 @@
             </el-tooltip>
 
             <el-tooltip effect="light" content="Instagram" placement="top">
-                <a :href=instagram_url>
+                <a :href=urls.instagram_url>
                     <el-button text>
                         <i class="bi bi-instagram"></i>
                     </el-button>
@@ -48,7 +48,7 @@
             </el-tooltip>
 
             <el-tooltip effect="light" content="Email" placement="top">
-                <a :href=mail_to>
+                <a :href=urls.mail_to>
                     <el-button text>
                         <i class="bi bi-envelope"></i>
                     </el-button>
@@ -65,7 +65,9 @@
 </template>
 
 <script setup>
-import { github_url, instagram_url, behance_url, bilibili_url, mail_to } from "@/data/url.js"
+// @ts-ignore
+import urls from "/public/data/urls.json"
+console.log(urls)
 import { scrollToTop } from "@/util/scrollbar.js"
 </script>
 
