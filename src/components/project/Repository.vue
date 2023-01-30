@@ -1,8 +1,8 @@
 <template>
 
   <div class="repository">
-    <el-row>
-      <el-col :span="18" :xs="24">
+    <el-row :gutter="24">
+      <el-col :span="16" :xs="24">
         <a :href="repository.html_url">
           <h1>{{ repository.full_name }}</h1>
         </a>
@@ -31,7 +31,7 @@
         </p>
       </el-col>
 
-      <el-col :span="6" :xs="24">
+      <el-col :span="8" :xs="24">
         <a :href="repository.homepage">
           <img class="repo-gif" :src="repo_src" />
         </a>
@@ -135,12 +135,7 @@ watch(theme, (_) => {
   .repo-gif {
     width: 100%;
     border-radius: 8px;
-    border: 4px solid var(--el-fill-color-lighter);
-
-    &:hover {
-
-      border: 4px solid var(--el-color-info-light-5);
-    }
+    box-shadow: var(--el-box-shadow-light);
   }
 }
 </style>

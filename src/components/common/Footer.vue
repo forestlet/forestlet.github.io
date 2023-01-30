@@ -67,7 +67,6 @@
 <script setup>
 // @ts-ignore
 import urls from "/public/data/urls.json"
-console.log(urls)
 import { scrollToTop } from "@/util/scrollbar.js"
 </script>
 

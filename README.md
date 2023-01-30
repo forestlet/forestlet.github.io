@@ -2,23 +2,26 @@
 
 ## Content
 
-### My Projects
+- My Projects
 
-- [x] everyday-album
-- [x] bookdash-cn
-- [x] Mytho
-- [ ] gist
-- [ ] Typora Themes
+  - [x] everyday-album
+  - [x] bookdash-cn
+  - [x] Mytho
+  - [x] herisson
+  - [x] novel-translation
+  - [ ] gist
+  - [ ] Typora Themes
 
-### Illustration
+- Illustration
 
-- [x] behance
+  - [x] behance
 
 ## Todo
 
-- [ ] add gif/img
+- [x] add gif/img
+- [ ] mobile header
 
-## Ref
+## Inspiration
 
 - [Arlen McCluskey](https://www.arlenmccluskey.com/): beautiful gif
 - [François Best](https://francoisbest.com/): excellent hover effect

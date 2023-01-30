@@ -8,7 +8,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "axios": "^1.2.2",
+    "axios": "^1.2.5",
     "bootstrap-icons": "^1.10.3",
     "element-plus": "^2.2.28",
     "normalize.css": "^8.0.1",
@@ -19,10 +19,10 @@
   "devDependencies": {
     "@vitejs/plugin-vue": "^4.0.0",
     "sass": "^1.57.1",
-    "unplugin-auto-import": "^0.12.1",
-    "unplugin-icons": "^0.15.1",
+    "unplugin-auto-import": "^0.12.2",
+    "unplugin-icons": "^0.15.2",
     "unplugin-vue-components": "^0.22.12",
     "vite": "^4.0.4",
-    "vite-plugin-inspect": "^0.7.14"
+    "vite-plugin-inspect": "^0.7.15"
   }
 }
