@@ -4,7 +4,7 @@
 <script setup>
 import Work from '@/components/work/Work.vue';
 // @ts-ignore
-import works from "/public/data/works.json"
+import works from "@/data/works.json"
 </script>
 <style>
 

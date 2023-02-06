@@ -33,7 +33,9 @@
 
       <el-col :span="8" :xs="24">
         <a :href="repository.homepage">
-          <img class="repo-gif" :src="repo_src" />
+          <div class="repo-gif-container">
+            <img class="repo-gif" :src="repo_src" />
+          </div>
         </a>
       </el-col>
     </el-row>
@@ -132,10 +134,19 @@ watch(theme, (_) => {
     }
   }
 
-  .repo-gif {
-    width: 100%;
+  .repo-gif-container {
     border-radius: 8px;
-    box-shadow: var(--el-box-shadow-light);
+    padding: 4px 4px 0 4px;
+
+    &:hover {
+      box-shadow: var(--el-color-info-light-7) 1px 2px 3px 2px;
+    }
+
+    .repo-gif {
+      border-radius: 4px;
+      width: 100%;
+    }
   }
+
 }
 </style>

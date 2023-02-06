@@ -4,7 +4,7 @@
 <script setup>
 import Project from '@/components/project/Project.vue';
 // @ts-ignore
-import repositories from "/public/data/repositories.json"
+import repositories from "@/data/repositories.json"
 </script>
 <style>
 

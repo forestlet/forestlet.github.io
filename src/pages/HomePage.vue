@@ -36,9 +36,9 @@ import Project from "@/components/project/Project.vue"
 import Work from "@/components/work/Work.vue"
 
 // @ts-ignore
-import repositories from "/public/data/repositories.json"
+import repositories from "@/data/repositories.json"
 // @ts-ignore
-import works from "/public/data/works.json";
+import works from "@/data/works.json";
 </script>
 
 <style lang="scss" scoped>
